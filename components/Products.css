@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Products{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px;
+}
+.Products .Product{
+    width: calc(100% / 4);
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background: #fff;
+    
+}
+.Products .Product .content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    transition: 1s;
+    box-shadow: 0 0 5px 2px #192a56, 0 0 7px 4px #353b48, 0 0 8px 6px #353b48;
+    
+}
+.Products .Product .content .buy button{
+   border: none;
+   background: #e1b12c;
+   color: #fff;
+   font-size: 25px;
+   
+}
+.Products .Product .content .innerContent{
+    text-align: center;
+    margin: 20px 0px;
+}
+.Products .Product .content .innerContent h1,h2,h3,button{
+    margin: 5px 0px;
+}
+.Products .Product .content .innerContent h1{
+    color: #e1b12c;
+
+}
+.buy{
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: #e1b12c;
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.buy i{
+    margin-left: 10px;
+}
+.Products .Product .content:hover{
+    box-shadow: none;
+}

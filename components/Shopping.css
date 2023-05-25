@@ -1,0 +1,11 @@
+.editQty{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+.editQty span{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
